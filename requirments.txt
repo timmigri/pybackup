@@ -1,0 +1,7 @@
+google-api-python-client
+requests
+termcolor
+google_auth_oauthlib
+python-magic
+pycrypto
+fabric3

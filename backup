@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd /home/artem/dev/python/backup/
+. ~/.venvs/backup/bin/activate
+
+if [ "$1" == "install" ]
+then
+clear
+pip3 install -r requirments.txt
+
+else
+python3 backup.py "$1" "$2"
+fi
